@@ -1,0 +1,1 @@
+web: gunicorn SRI.wsgi --log-file  -

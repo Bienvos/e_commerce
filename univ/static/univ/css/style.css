@@ -1,0 +1,44 @@
+/* media inferieur a 1200 px */
+@media screen and (max-width:1200px ){
+
+    .contenair-fluid{
+        width: 100%;  
+    }
+    .nav-item{
+
+        display:none;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .contenair-fluid{
+        display: block; 
+        width: 100%; 
+        margin: 0%;
+        height: auto;
+        background-attachment: fixed;
+        
+    }
+
+    .nav-item,.nav-link,.dropdown-menu,.dropdown-item{
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card {
+
+        margin-bottom: 15px;
+        width:12rem;
+
+        
+    }
+
+    
+}
+
+
+
+/* media inferieur a 768 px */
+
